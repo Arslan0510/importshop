@@ -10,7 +10,7 @@ export class index extends Component {
     return (
       <>
         <HeaderNav />
-        <section class='page_section team' id='team'>
+        <section class='page_section team gone' id='team'>
           <div class='container'>
             <h2>Our Family</h2>
             <h6>Lorem ipsum dolor sit amet, consectetur adipiscing.</h6>

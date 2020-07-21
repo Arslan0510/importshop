@@ -14,7 +14,7 @@ export class index extends Component {
     return (
       <>
         <HeaderNav />
-        <section id='Portfolio' class='content'>
+        <section id='Portfolio' class='content gone'>
           <div class='container portfolio_title'>
             <div class='section-title'>
               <h2>Photo Gallery</h2>

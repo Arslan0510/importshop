@@ -6,7 +6,7 @@ export class index extends Component {
     return (
       <>
         <HeaderNav />
-        <footer class='footer_wrapper' id='contact'>
+        <footer class='footer_wrapper gone' id='contact'>
           <div class='container'>
             <section class='page_section contact' id='contact'>
               <div class='contact_section'>

@@ -6,7 +6,7 @@ export class index extends Component {
     return (
       <>
         <HeaderNav />
-        <section id='service' style={{ overflowY: 'hidden' }}>
+        <section id='service' style={{ overflowY: 'hidden' }} className='gone'>
           <div class='container'>
             <h2>Birthday & Stationery</h2>
             <h6>

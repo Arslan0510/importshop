@@ -8,7 +8,7 @@ export class index extends Component {
     return (
       <>
         <HeaderNav />
-        <section id='aboutUs'>
+        <section id='aboutUs' className='gone'>
           <div className='inner_wrapper about-us aboutUs-container fadeInLeft animated wow'>
             <div className='container'>
               <h2>About Us</h2>

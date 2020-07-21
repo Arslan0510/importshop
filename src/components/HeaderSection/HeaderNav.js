@@ -8,12 +8,12 @@ export default function HearderNav() {
     const links = document.querySelectorAll('.nav-links li');
     navLinks.classList.toggle('open');
     if (navLinks.classList.contains('open')) {
-      document.querySelector('.top_cont_outer').classList.remove('fade-out');
-      document.querySelector('.top_cont_outer').classList.add('fade-in');
+      document.querySelector('.gone').classList.remove('fade-out');
+      document.querySelector('.gone').classList.add('fade-in');
       console.log('yes');
     } else {
-      document.querySelector('.top_cont_outer').classList.remove('fade-in');
-      document.querySelector('.top_cont_outer').classList.add('fade-out');
+      document.querySelector('.gone').classList.remove('fade-in');
+      document.querySelector('.gone').classList.add('fade-out');
       console.log('no');
     }
     links.forEach((link) => {

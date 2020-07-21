@@ -2,7 +2,7 @@ import React from 'react';
 
 function index() {
   return (
-    <section id='hero_section' class='top_cont_outer'>
+    <section id='hero_section' class='top_cont_outer gone'>
       <div class='hero_wrapper'>
         <div class='container'>
           <div class='hero_section'>

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import HeaderSection from '../../components/HeaderSection';
+import HeaderNav from '../../components/HeaderSection/HeaderNav';
 
 export class index extends Component {
   render() {
     return (
       <>
-        <HeaderSection />
+        <HeaderNav />
         <footer class='footer_wrapper' id='contact'>
           <div class='container'>
             <section class='page_section contact' id='contact'>

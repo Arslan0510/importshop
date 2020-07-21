@@ -7,9 +7,13 @@ Licence under Creative Commons Attribution 3.0
 @charset "utf-8";
 @import url('http://fonts.googleapis.com/css?family=Raleway:800, 700, 400');
 @import url('http://fonts.googleapis.com/css?family=Signika:400, 600');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 /* Reset
 ---------------------------------*/
+.root {
+  overflow-y: hidden;
+}
 ul {
   list-style: none;
 }
@@ -19,7 +23,8 @@ ul {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 a,
@@ -206,7 +211,8 @@ figure.effect-oscar:hover img {
 ---------------------------------*/
 body {
   background: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Acme', sans-serif;
+  // font-family: 'Open sans', sans-serif;
   font-size: 14px;
   font-weight: normal;
   color: #888888;
@@ -216,7 +222,8 @@ body {
 h2 {
   font-size: 38px;
   color: #222222;
-  font-family: 'Raleway', sans-serif;
+  // font-family: 'Raleway', sans-serif;
+  font-family: 'Acme', sans-serif;
   font-weight: normal;
   margin: 0px 0 25px 0;
   text-align: center;
@@ -224,7 +231,8 @@ h2 {
 }
 
 h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Acme', sans-serif;
+  // font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: #222222;
   font-size: 18px;
@@ -234,7 +242,8 @@ h3 {
 h6 {
   font-size: 16px;
   color: #888888;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Acme', sans-serif;
+  // font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   text-align: center;
   margin: 0 0 60px 0;
@@ -317,7 +326,8 @@ div#main-nav {
   display: block;
   font-size: 14px;
   color: #222222;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Acme', sans-serif;
+  // font-family: 'Raleway', sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
@@ -378,7 +388,7 @@ div#main-nav {
 .top_cont_outer {
   background: #ed5441;
   position: relative;
-  background: url('./assets/images/main2.jpg') no-repeat;
+  background: url('./assets/images/main2.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -427,7 +437,8 @@ div#main-nav {
   color: #ad0c98;
   line-height: 60px;
   margin: 0 0 26px 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Acme', sans-serif;
+  // font-family: 'Raleway', sans-serif;
   text-align: center;
 }
 
@@ -452,7 +463,8 @@ div#main-nav {
 
 a.read_more,
 a.read_more2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Acme', sans-serif;
+  // font-family: 'Raleway', sans-serif;
   display: block;
   font-size: 16px;
   width: 178px;
@@ -531,13 +543,13 @@ a.read_more:hover {
   margin-top: 0;
   position: relative;
   top: 20px;
-  z-index: 20;
   display: block;
   text-align: center;
 }
 
 .service_block h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Acme', sans-serif;
+  // font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 25px;
   color: #fff;
@@ -625,7 +637,8 @@ a.contact_btn {
   font-size: 16px;
   color: #ed5441;
   border-radius: 3px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Acme', sans-serif;
+  // font-family: 'Raleway', sans-serif;
   font-weight: 600;
   border: 2px solid #ed5441;
   transition: all 0.2s ease-in-out;
@@ -1394,7 +1407,8 @@ p {
 
 .section-title h2 {
   color: #222222;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Acme', sans-serif;
+  // font-family: 'Raleway', sans-serif;
   font-size: 34px;
   letter-spacing: -1px;
   margin: 0 0 15px;
@@ -1405,7 +1419,8 @@ p {
 .section-title span {
   display: block;
   color: #888888;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Acme', sans-serif;
+  // font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
   margin: 0 0 60px;
@@ -1660,7 +1675,8 @@ p {
 .project-section-title h1 {
   margin-bottom: 5px !important;
   letter-spacing: 1px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Acme', sans-serif;
+  // font-family: 'Raleway', sans-serif;
 }
 
 .project-page {
@@ -1892,6 +1908,9 @@ div.mc-image {
   }
 }
 @media (max-width: 768px) {
+  .root {
+    overflow-y: hidden;
+  }
   .navStyle {
     float: right;
     width: auto;
@@ -1904,11 +1923,14 @@ div.mc-image {
     font-size: 14px;
   }
   .top_cont_outer {
-    height: 335px;
+    height: 530px;
   }
   .hero_section {
     position: relative;
     padding-top: 10px;
+  }
+  .hero_wrapper {
+    height: 750px;
   }
   .top_left_cont {
     padding: 38px 0;

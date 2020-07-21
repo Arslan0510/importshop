@@ -1,77 +1,147 @@
 import React, { Component } from 'react';
-import HeaderSection from '../../components/HeaderSection';
+import HeaderNav from '../../components/HeaderSection/HeaderNav';
 
 export class index extends Component {
   render() {
     return (
       <>
-        <HeaderSection />
-        <section id='service'>
+        <HeaderNav />
+        <section id='service' style={{ overflowY: 'hidden' }}>
           <div class='container'>
-            <h2>Our Program</h2>
+            <h2>Birthday & Stationery</h2>
             <h6>
               Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci
               ipsum
             </h6>
             <div class='service_wrapper'>
               <div class='row'>
-                <div class='col-md-3'>
+                <div class='col-md-4'>
                   <div class='service_icon delay-03s animated wow  zoomIn'>
-                    {' '}
                     <span>
                       <i class='fa fa-bitbucket'></i>
-                    </span>{' '}
+                    </span>
                   </div>
                   <div class='service_block'>
-                    <h3 class='animated fadeInUp wow'>Bachelor Party</h3>
+                    <h3 class='animated fadeInUp wow'>Birthday Themes</h3>
                     <p class='animated fadeInDown wow'>
                       Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.{' '}
+                      typesetting industry.
                     </p>
                   </div>
                 </div>
-                <div class='col-md-3'>
+                <div class='col-md-4'>
                   <div class='service_icon icon2  delay-03s animated wow zoomIn'>
-                    {' '}
                     <span>
                       <i class='fa fa-bank'></i>
-                    </span>{' '}
+                    </span>
                   </div>
                   <div class='service_block'>
-                    <h3 class='animated fadeInUp wow'>Wedding</h3>
+                    <h3 class='animated fadeInUp wow'>Ballons</h3>
                     <p class='animated fadeInDown wow'>
                       Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.{' '}
+                      typesetting industry.
                     </p>
                   </div>
                 </div>
-                <div class='col-md-3'>
+                <div class='col-md-4'>
                   <div class='service_icon icon3  delay-03s animated wow zoomIn'>
-                    {' '}
                     <span>
                       <i class='fa fa-apple'></i>
-                    </span>{' '}
+                    </span>
                   </div>
                   <div class='service_block'>
-                    <h3 class='animated fadeInUp wow'>Cocktail Dinner</h3>
+                    <h3 class='animated fadeInUp wow'>Candles</h3>
                     <p class='animated fadeInDown wow'>
                       Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.{' '}
+                      typesetting industry.
                     </p>
                   </div>
                 </div>
-                <div class='col-md-3'>
+              </div>
+              <div class='row'>
+                <div class='col-md-4'>
                   <div class='service_icon icon3  delay-03s animated wow zoomIn'>
-                    {' '}
                     <span>
                       <i class='fa fa-heart'></i>
-                    </span>{' '}
+                    </span>
                   </div>
                   <div class='service_block'>
-                    <h3 class='animated fadeInUp wow'>Reception</h3>
+                    <h3 class='animated fadeInUp wow'>Cake Topper</h3>
                     <p class='animated fadeInDown wow'>
                       Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.{' '}
+                      typesetting industry.
+                    </p>
+                  </div>
+                </div>
+                <div class='col-md-4'>
+                  <div class='service_icon delay-03s animated wow  zoomIn'>
+                    <span>
+                      <i class='fa fa-bitbucket'></i>
+                    </span>
+                  </div>
+                  <div class='service_block'>
+                    <h3 class='animated fadeInUp wow'>Decoration & Lights</h3>
+                    <p class='animated fadeInDown wow'>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                  </div>
+                </div>
+                <div class='col-md-4'>
+                  <div class='service_icon icon2  delay-03s animated wow zoomIn'>
+                    <span>
+                      <i class='fa fa-bank'></i>
+                    </span>
+                  </div>
+                  <div class='service_block'>
+                    <h3 class='animated fadeInUp wow'>Goody Bags & Goodies</h3>
+                    <p class='animated fadeInDown wow'>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class='row'>
+                <div class='col-md-4'>
+                  <div class='service_icon icon3  delay-03s animated wow zoomIn'>
+                    <span>
+                      <i class='fa fa-apple'></i>
+                    </span>
+                  </div>
+                  <div class='service_block'>
+                    <h3 class='animated fadeInUp wow'>Greeting Cards</h3>
+                    <p class='animated fadeInDown wow'>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                  </div>
+                </div>
+                <div class='col-md-4'>
+                  <div class='service_icon icon3  delay-03s animated wow zoomIn'>
+                    <span>
+                      <i class='fa fa-heart'></i>
+                    </span>
+                  </div>
+                  <div class='service_block'>
+                    <h3 class='animated fadeInUp wow'>Party Fun</h3>
+                    <p class='animated fadeInDown wow'>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                  </div>
+                </div>
+                <div class='col-md-4'>
+                  <div class='service_icon delay-03s animated wow  zoomIn'>
+                    <span>
+                      <i class='fa fa-bitbucket'></i>
+                    </span>
+                  </div>
+                  <div class='service_block'>
+                    <h3 class='animated fadeInUp wow'>Wearables</h3>
+                    <p class='animated fadeInDown wow'>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
                     </p>
                   </div>
                 </div>

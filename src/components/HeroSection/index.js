@@ -10,11 +10,11 @@ function index() {
               <div class='col-md-12'>
                 <div class='top_left_cont zoomIn wow animated'>
                   <h2>
-                    We’re getting married.
+                    We’re opening soon.
                     <br />
-                    <strong>Rachel & Martin</strong>
+                    <strong>Fizza & Daughters</strong>
                   </h2>
-                  <h3>on December 28th 2015, Los Angeles, CA</h3>
+                  <h3>on August 14th 2020, Rawalpindi, PK</h3>
                 </div>
               </div>
             </div>

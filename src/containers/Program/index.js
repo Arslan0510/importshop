@@ -138,7 +138,7 @@ export class index extends Component {
                     </span>
                   </div>
                   <div class='service_block'>
-                    <h3 class='animated fadeInUp wow'>Wearables</h3>
+                    <h3 class='animated fadeInUp wow'>Wearables toys</h3>
                     <p class='animated fadeInDown wow'>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry.

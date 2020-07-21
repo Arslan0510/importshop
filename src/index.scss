@@ -26,7 +26,9 @@ img {
   width: 100%;
   height: auto;
 }
-
+.scrollDisable {
+  overflow-y: hidden;
+}
 a,
 a:hover,
 a:active {
@@ -386,10 +388,11 @@ div#main-nav {
 ---------------------------------*/
 
 .top_cont_outer {
-  background: #ed5441;
-  position: relative;
-  background: url('./assets/images/main2.jpg') no-repeat center;
-  background-size: cover;
+  background: #eeee;
+  // position: relative;
+  // background: url('./assets/images/main2.jpg') no-repeat center;
+  // background-size: cover;
+  height: 562px;
 }
 
 .hero_section {
@@ -397,7 +400,7 @@ div#main-nav {
   padding-top: 14px;
 }
 .hero_wrapper {
-  height: 750px;
+  height: auto;
 }
 .white_pad {
   position: relative;
@@ -412,7 +415,7 @@ div#main-nav {
 }
 
 .top_left_cont {
-  padding: 245px 0;
+  padding: 100px 0;
 }
 
 .top_left_cont h3 {
@@ -1927,10 +1930,10 @@ div.mc-image {
   }
   .hero_section {
     position: relative;
-    padding-top: 10px;
+    padding-top: 150px;
   }
   .hero_wrapper {
-    height: 750px;
+    height: auto;
   }
   .top_left_cont {
     padding: 38px 0;

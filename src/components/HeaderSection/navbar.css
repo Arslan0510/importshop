@@ -131,8 +131,8 @@ nav.fill ul li a:hover:after {
     height: 100vh;
     width: 100%;
     flex-direction: column;
-    clip-path: circle(100px at 100% 100%);
-    -webkit-clip-path: circle(100px at 100% 100%);
+    clip-path: circle(100px at 90% -10%);
+    -webkit-clip-path: circle(100px at 90% -10%);
     transition: all 1s ease-out;
     pointer-events: none;
   }
@@ -160,6 +160,21 @@ nav.fill ul li a:hover:after {
   }
   .nav-links li:nth-child(3) {
     transition: all 0.5s ease 0.8s;
+  }
+  .nav-links li:nth-child(4) {
+    transition: all 0.5s ease 0.1s;
+  }
+  .nav-links li:nth-child(5) {
+    transition: all 0.5s ease 1.2s;
+  }
+  .nav-links li:nth-child(6) {
+    transition: all 0.5s ease 1.4s;
+  }
+  .nav-links li:nth-child(7) {
+    transition: all 0.5s ease 1.6s;
+  }
+  .nav-links li:nth-child(8) {
+    transition: all 0.5s ease 1.8s;
   }
   li.fade {
     opacity: 1;

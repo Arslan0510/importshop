@@ -44,6 +44,9 @@ export default function HearderNav() {
         </div>
         <ul className='nav-links'>
           <li>
+            <a href='/dashboard'>Home</a>
+          </li>
+          <li>
             <a href='/about'>Stationery</a>
           </li>
           <li>

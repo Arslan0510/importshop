@@ -7,8 +7,9 @@ export class index extends Component {
   render() {
     return (
       <>
-        <HeroSection />
         <HearderNav />
+        <HeroSection />
+
         {/* <HeaderSection /> */}
       </>
     );

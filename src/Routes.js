@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import { Router, Switch, Route, Redirect } from 'react-router-dom';
 
 import Dashboard from './containers/Dashboard';
-import About from './containers/About';
+import Stationery from './containers/Stationery';
 import Program from './containers/Program';
-import PhotoGallery from './containers/PhotoGallery';
-import Family from './containers/Family';
+import Art from './containers/Art';
+import Electronics from './containers/Electronics';
+import Makeup from './containers/Makeup';
+import Bags from './containers/Bags';
 import Contact from './containers/Contact';
 import history from './history';
 
@@ -16,11 +18,13 @@ export default class Routes extends Component {
         <Switch>
           {<Redirect exact from='/' to='/dashboard' />}
           <Route path='/dashboard' component={Dashboard} />
-          <Route path='/about' component={About} />
+          <Route path='/stationery' component={Stationery} />
           <Route path='/program' component={Program} />
-          <Route path='/gallery' component={PhotoGallery} />
-          <Route path='/family' component={Family} />
-          <Route path='/contact' component={Contact} />
+          <Route path='/art' component={Art} />
+          <Route path='/electronics' component={Electronics} />
+          <Route path='/makeup' component={Makeup} />
+          <Route path='/bags' component={Bags} />
+          <Route path='/shampoo' component={Contact} />
         </Switch>
       </Router>
     );

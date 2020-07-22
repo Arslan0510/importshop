@@ -47,16 +47,16 @@ export default function HearderNav() {
             <a href='/dashboard'>Home</a>
           </li>
           <li>
-            <a href='/about'>Stationery</a>
+            <a href='/stationery'>Stationery</a>
           </li>
           <li>
             <a href='/program'>Birthday & Party</a>
           </li>
           <li>
-            <a href='/gallery'>Art & Craft</a>
+            <a href='/art'>Art & Craft</a>
           </li>
           <li>
-            <a href='/family'>Electronics</a>
+            <a href='/electronics'>Electronics</a>
           </li>
           <li>
             <a href='/makeup'>Makeup</a>
@@ -65,7 +65,7 @@ export default function HearderNav() {
             <a href='/bags'>Bags</a>
           </li>
           <li>
-            <a href='/contact'>Shampoo & Conditioner</a>
+            <a href='/shampoo'>Shampoo & Conditioner</a>
           </li>
         </ul>
       </nav>

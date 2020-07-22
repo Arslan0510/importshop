@@ -22,17 +22,17 @@ export class index extends Component {
                     <div class='detail'>
                       <h4>Location Address</h4>
                       <p>
-                        Riock Church
-                        <br /> #104, Some street, NewYork, USA
+                        Sadiqabad
+                        <br /> #104, Bilu street, Rawalpindi, PK
                       </p>
                     </div>
                     <div class='detail'>
-                      <h4>call us</h4>
-                      <p>+1 234 567890</p>
+                      <h4>Whatsapp us</h4>
+                      <p>+92 309 055 3190</p>
                     </div>
                     <div class='detail'>
                       <h4>Email us</h4>
-                      <p>support@sitename.com</p>
+                      <p>support@importshop.com</p>
                     </div>
                   </div>
 
@@ -99,8 +99,8 @@ export class index extends Component {
           <div class='container'>
             <div class='footer_bottom'>
               <span>
-                Copyright © 2020, Template by
-                <a href='http://Pearl.com'>Pearl.com</a>.
+                Copyright © 2020, Template by{' '}
+                <a href='http://Pearl.com'> Pearl.com</a>
               </span>
             </div>
           </div>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import HeaderNav from '../../components/HeaderSection/HeaderNav';
+import { Office } from '../../components/Stationery';
 
 export class index extends Component {
   render() {

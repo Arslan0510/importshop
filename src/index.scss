@@ -506,10 +506,11 @@ a.read_more:hover {
 
 #service {
   padding: 60px 0px;
-  background: #ad0c98;
+  background: #fff;
+  // background: #ad0c98;
 }
 #service h2 {
-  color: #fff;
+  color: #201932;
 }
 .service_wrapper {
   padding: 40px 0 40px;
@@ -535,7 +536,7 @@ a.read_more:hover {
 }
 
 .service_icon span {
-  background: rgb(255, 255, 255);
+  background: #6b4ee6;
   display: block;
   height: 100%;
   width: 100%;
@@ -544,7 +545,9 @@ a.read_more:hover {
 }
 
 .service_icon i {
-  color: #f04761;
+  color: white;
+  // color: rgb(225, 225, 225);
+  // color: #f04761;
   font-size: 40px;
   margin-top: 0;
   position: relative;
@@ -558,15 +561,15 @@ a.read_more:hover {
   // font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 25px;
-  color: #fff;
+  color: #201932;
   margin: 35px 0 15px;
 }
 #service h6 {
-  color: #fff;
+  color: #333;
 }
 .service_block p {
   font-size: 16px;
-  color: #ffc4cd;
+  color: #333;
   margin: 0 0 35px 0;
 }
 

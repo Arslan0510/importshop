@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import HeaderNav from '../../components/HeaderSection/HeaderNav';
 import image1 from '../../assets/images/about1.png';
 import image2 from '../../assets/images/about2.png';
 
@@ -7,7 +6,6 @@ export class index extends Component {
   render() {
     return (
       <>
-        <HeaderNav />
         <section id='aboutUs' className='gone'>
           <div className='inner_wrapper about-us aboutUs-container fadeInLeft animated wow'>
             <div className='container'>

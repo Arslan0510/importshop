@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import HeaderNav from '../../components/HeaderSection/HeaderNav';
 import image1 from '../../assets/images/team01.jpg';
 import image2 from '../../assets/images/team02.jpg';
 import image3 from '../../assets/images/team03.jpg';
@@ -9,7 +8,6 @@ export class index extends Component {
   render() {
     return (
       <>
-        <HeaderNav />
         <section class='page_section team gone' id='team'>
           <div class='container'>
             <h2>Our Family</h2>

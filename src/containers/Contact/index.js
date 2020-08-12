@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import HeaderNav from '../../components/HeaderSection/HeaderNav';
 
 export class index extends Component {
   render() {
     return (
       <>
-        <HeaderNav />
         <footer class='footer_wrapper gone' id='contact'>
           <div class='container'>
             <section class='page_section contact' id='contact'>

@@ -1,5 +1,7 @@
 nav {
   height: 10vh;
+  /* background: #ee5353;
+  background: #ff9f43; */
   background: #6b4ee6;
   /* background: #5b78c7; */
 }
@@ -12,7 +14,7 @@ nav {
 .nav-links {
   display: flex;
   list-style: none;
-  width: 70%;
+  width: 100%;
   height: 100%;
   justify-content: space-around;
   align-items: center;
@@ -128,12 +130,12 @@ nav.fill ul li a:hover:after {
   }
   .nav-links {
     position: fixed;
-    background: #5b78c7;
+    background: #6b4ee6;
     height: 100vh;
     width: 100%;
     flex-direction: column;
-    clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(100px at 90% -10%);
+    clip-path: circle(100px at 90% -20%);
+    -webkit-clip-path: circle(100px at 90% -20%);
     transition: all 1s ease-out;
     pointer-events: none;
   }
@@ -147,7 +149,11 @@ nav.fill ul li a:hover:after {
   .landing {
     flex-direction: column;
   }
+  .fade:not(.show) {
+    opacity: 1 !important;
+  }
   .nav-links li {
+    /* opacity: 1; */
     opacity: 0;
   }
   .nav-links li a {

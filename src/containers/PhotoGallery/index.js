@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import HeaderNav from '../../components/HeaderSection/HeaderNav';
 import image1 from '../../assets/images/portfolio_pic1.jpg';
 import image2 from '../../assets/images/portfolio_pic2.jpg';
 import image3 from '../../assets/images/portfolio_pic3.jpg';
@@ -13,7 +12,6 @@ export class index extends Component {
   render() {
     return (
       <>
-        <HeaderNav />
         <section id='Portfolio' class='content gone'>
           <div class='container portfolio_title'>
             <div class='section-title'>

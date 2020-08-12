@@ -9,6 +9,7 @@ import Electronics from './containers/Electronics';
 import Makeup from './containers/Makeup';
 import Bags from './containers/Bags';
 import Contact from './containers/Contact';
+import { OfficeStationery } from './components/OfficeStationery';
 import history from './history';
 
 export default class Routes extends Component {
@@ -25,6 +26,7 @@ export default class Routes extends Component {
           <Route path='/makeup' component={Makeup} />
           <Route path='/bags' component={Bags} />
           <Route path='/shampoo' component={Contact} />
+          <Route path='/office-stationery' component={OfficeStationery} />
         </Switch>
       </Router>
     );

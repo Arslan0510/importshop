@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import HeaderNav from '../../components/HeaderSection/HeaderNav';
-import { Office } from '../../components/Stationery';
+import { OfficeStationery } from '../../components/OfficeStationery';
 
 export class index extends Component {
+  handleOffice = () => {
+    this.props.history.push('office-stationery');
+  };
   render() {
     return (
       <>
-        <HeaderNav />
         <section id='service' className='gone'>
           <div class='container'>
             <h2>Stationery</h2>
@@ -17,7 +18,10 @@ export class index extends Component {
             <div class='service_wrapper'>
               <div class='row'>
                 <div class='col-md-4'>
-                  <div class='service_icon delay-03s animated wow  zoomIn'>
+                  <div
+                    class='service_icon delay-03s animated wow  zoomIn'
+                    onClick={this.handleOffice}
+                  >
                     <span>
                       <i class='fa fa-bitbucket'></i>
                     </span>
